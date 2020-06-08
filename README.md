@@ -12,3 +12,6 @@ On MacOS, we will run TensorFlow and Jupyter Notebook under `virtualenv`.
   2.2.0
   ```
 * Install and start Jupyter Notebook by running `pip install notebook` and `jupyter notebook`.
+
+## Knowledge Summary based on Coursera Deep Learning Specializations
+### [Neural Networks and Deep Learning](./Documentations/NeuralNetworksAndDeepLearning.md)
