@@ -1,10 +1,10 @@
 # Neural Networks and Deep Learning
 
-## Neural Network Basics
-### Mathematics of Logistic Regression
+## 1. Neural Network Basics
+### 1.1 Mathematics of Logistic Regression
   <img src="./Images/LogisticRegressionMath.png" height=75% width=75%>
 
-### Vectorized Implementation in Python for Logistic Regression
+### 1.2 Vectorized Implementation in Python for Logistic Regression
   ```python
   for iter in range(NumOfIterations):
     Z = np.dot(w.T, X) + b
@@ -15,3 +15,20 @@
     w = w - alpha * dw
     b = b - alpha * db 
   ```
+
+## 2. Shallow Neural Networks
+### 2.1 Forward Propagation Formulas
+  <img src="./Images/OneLForwardProp.png" height=22% width=22%>
+
+### 2.2 Different Common Activation Functions
+  <img src="./Images/ActivationFunctions.png" height=75% width=75%>
+
+### 2.3 Gradient Descent and Backward Propagation
+  <img src="./Images/OneLBackwardProp.png" height=75% width=75%>
+
+### 2.4 Random Initialization
+  All weight variables (`w`) should be initialized as a random between 0 and 1, all drift variables (`b`) should be initialized as 0.
+
+## 3. Deep Neural Network
+In this section, we want to expand the one hidden layer Neural Network into a L-hidden layer Neural Network.\
+  <img src="./Images/LLayer.png" height=75% width=75%>
