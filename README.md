@@ -1,4 +1,4 @@
-# Deep Learning IMooc Course General Information
+# Deep Learning IMooc Course Documentations
 
 ## Environment Setup
 On MacOS, we will run TensorFlow and Jupyter Notebook under `virtualenv`.
@@ -15,3 +15,7 @@ On MacOS, we will run TensorFlow and Jupyter Notebook under `virtualenv`.
 
 ## Knowledge Summary based on Coursera Deep Learning Specializations
 ### [Neural Networks and Deep Learning](./Documentations/NeuralNetworksAndDeepLearning.md)
+### [Improving Deep Neural Networks](./Documentations/ImprovingDeepNeuralNetworks.md)
+
+## Project Overview
+### Deep Learning with Neural Network
