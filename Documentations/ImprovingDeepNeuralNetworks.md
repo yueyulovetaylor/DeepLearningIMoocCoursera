@@ -31,6 +31,19 @@
 ## 1.5 Other Regularization methods
 **Data Augmentation** and **Early Stopping**
 
+## 1.6 Normalizing Input
+* Substract Mean:\
+  <img src="./Images/ImprovingDeepNeuralNetworks/MeanNormalization.png" height=90% width=90%>
+* Normalize Variance:\
+  <img src="./Images/ImprovingDeepNeuralNetworks/VarianceNormalization.png" height=90% width=90%>
+* After normalizing input, regardless of which direction we start to iterate, we can use a minimal number of iterations to find the global optimum.
+
+## 1.7 Weight Initialization for Deep Networks to avoid Vanishing/Exploding gradients
+  When the number of input is large, we want each wi to be small. Given `g(z) = reLu(z)`, we set `Var(wi) = 1/n` and can get (**Xavier Initialization**)
+  ```
+  WL = np.random.randn(WL.shape[0], WL.shape[1]) * np.sqrt(1/n)
+  ```
+
 ## 2. Optimization Algorithms
 
 ## 3. Hyperparameter Tuning, Batch Normalization and Programming Frameworks
